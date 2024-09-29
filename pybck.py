@@ -49,7 +49,7 @@ def save_audio():
         return jsonify({'status':'success',"text":text})
     else:
         return jsonify({'status':'fail'})
-
+'''
 if __name__ == '__main__':
     extra_dirs = ['I:/JS/notes-maker-main copy/Audios'] 
-    app.run(debug=False, port=5501, use_reloader=False, extra_files=extra_dirs)
+    app.run(debug=False, port=5501, use_reloader=False, extra_files=extra_dirs) '''
