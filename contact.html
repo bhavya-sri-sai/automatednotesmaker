@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=1">
+<title>Home</title>
+<link rel="stylesheet" type="text/css" href="contact.css">
+</head>
+<body>
+<div class="container">
+	<form name="custom_form" id="customForm" onsubmit="return FormValidation()" action="valid.html">
+		<div class="form_box">
+			<div class="input-row">
+				<input type="text" name="name" placeholder="Name*">
+				<span class="error">Please Enter Your Name</span>
+			</div>
+			<div class="input-row">
+				<input type="text" name="email" placeholder="Email*">
+				<span class="error">Please Enter Your Email</span>
+			</div>
+			<div class="input-row">
+				<input type="text" name="phone" placeholder="Phone*">
+				<span class="error">Please Enter Your Phone</span>
+			</div>
+			<div class="input-row">
+				<span class="error">Please Enter Your Subject</span>
+			</div>
+			<div class="input-row">
+				<input placeholder="Message*" name="message">
+				<span class="error">Please Enter Your Message</span>
+			</div>		
+			<input type="submit" value="Submit" name="">
+		</div>
+	</form>
+</div>
+<script type="text/javascript" src="contact.js"></script>
+</body>
+</html>
