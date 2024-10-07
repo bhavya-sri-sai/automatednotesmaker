@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Note Template Selector with Expandable Text Box</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="template.css">
+</head>
+<body>
+    <h1>Select a Note Template</h1>
+    <select id="template-select" onchange="loadTemplate()">
+        <option value="">Select Template</option>
+        <option value="lecture">Lecture Notes</option>
+        <option value="meeting">Meeting Notes</option>
+        <option value="project">Project Planning</option>
+        <option value="daily-journal">Daily Journal</option>
+        <option value="interview">Interview Notes</option>
+        <option value="research">Research Notes</option>
+        <option value="task">Task/To-Do List</option>
+        <option value="budget">Budget Tracker</option>
+        <option value="shopping-list">Shopping List</option>
+        <option value="habit-tracker">Habit Tracker</option>
+    </select>
+    <div id="note-content" class="template-container"></div>
+    <button class="button" onclick="downloadNotes()">Download Notes</button>
+    <script src="template.js"></script>
+</body>
+</html>
